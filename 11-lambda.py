@@ -46,6 +46,6 @@ def custom_sort(s):
 
 
 skills.sort(key=custom_sort, reverse=True)  # 문자열 길이에 따라 sort 되게
-skills.sort(reverse=True, key=lambda s: len(s))
+skills.sort( key=lambda s: len(s))
 
 print(skills)

@@ -8,6 +8,6 @@ randint(3, 10)
 
 c1 = u.Circle(4)
 
-u.add(4,2 )
+u.add(4,2)
 
 u.test()
